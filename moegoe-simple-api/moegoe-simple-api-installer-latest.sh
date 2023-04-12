@@ -20,6 +20,8 @@ echo -e "${YELLOW}镜像大小为5g，拉取会比较慢\n${PLAIN}"
 docker compose pull
 docker compose up -d
 
+echo -e "MoeGoe-Simple-API已更名为vits-simple-api"
+echo -e "https://github.com/Artrajz/vits-simple-api"
 echo -e "\n已成功升级/安装MoeGoe-simple-api"
 echo -e "配置文件目录为 $(realpath $INSTALL_DIR)"
 echo -e "${RED}2023.4.7更新-需要更新config.py，否则会报错${PLAIN}"
