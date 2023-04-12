@@ -9,10 +9,10 @@ mkdir -p $INSTALL_DIR
 cd $INSTALL_DIR
 if [ ! -f config.py ]; then
     echo -e "${YELLOW}下载config.py\n${PLAIN}"
-    wget -O $INSTALL_DIR/config.py https://raw.githubusercontent.com/Artrajz/MoeGoe-Simple-API/main/config.py
+    wget -O $INSTALL_DIR/config.py https://raw.githubusercontent.com/Artrajz/archived/main/moegoe-simple-api/config.py
 fi
 
-wget -O $INSTALL_DIR/docker-compose.yaml https://raw.githubusercontent.com/Artrajz/MoeGoe-Simple-API/main/docker-compose.yaml
+wget -O $INSTALL_DIR/docker-compose.yaml https://raw.githubusercontent.com/Artrajz/archived/main/moegoe-simple-api/docker-compose.yaml
 
 echo -e "${YELLOW}即将开始拉取镜像${PLAIN}"
 echo -e "${YELLOW}镜像大小为5g，拉取会比较慢\n${PLAIN}"
